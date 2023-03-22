@@ -57,3 +57,16 @@ for (let i = 0; i < teamElements.length; i++) {
     const member = teamElements[i];
     console.log(member.nome, member.ruolo, member.foto);
 }
+
+/* 
+MILESTONE 2:
+Stampare le stesse informazioni su DOM sottoforma di stringhe */
+
+const divEl = document.getElementById("info_team")
+
+for (let i = 0; i < teamElements.length; i++) {
+    const member = teamElements[i];
+    const markup = (`${member.nome}, ${member.ruolo}, ${member.foto}`)
+
+    divEl.innerHTML += markup;
+}
