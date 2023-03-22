@@ -48,3 +48,12 @@ const teamElements = [
   ];
 
   console.log(teamElements);
+
+/*
+MILESTONE 1:
+Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto */
+
+for (let i = 0; i < teamElements.length; i++) {
+    const member = teamElements[i];
+    console.log(member.nome, member.ruolo, member.foto);
+}
