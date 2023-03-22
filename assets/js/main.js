@@ -74,3 +74,14 @@ for (let i = 0; i < teamElements.length; i++) {
 /*
 BONUS 1:
 Trasformare la stringa foto in una immagine effettiva */
+
+const imgPath = "../assets/img/"; // percorso relativo della cartella contenente le immagini
+
+teamElements[0].img = `${imgPath}angela-caroll-chief-editor.jpg`;
+teamElements[1].img = `${imgPath}angela-lopez-social-media-manager.jpg`;
+teamElements[2].img = `${imgPath}barbara-ramos-graphic-designer.jpg`;
+teamElements[3].img = `${imgPath}scott-estrada-developer.jpg`;
+teamElements[4].img = `${imgPath}walter-gordon-office-manager.jpg`;
+teamElements[5].img = `${imgPath}wayne-barnett-founder-ceo.jpg`;
+
+console.log(teamElements);
