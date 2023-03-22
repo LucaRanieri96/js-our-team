@@ -98,7 +98,7 @@ for (let i = 0; i < teamElements.length; i++) {
   console.log(member);
   const markup = `
       <div class="col-4 d-flex justify-content-center">
-        <div class="card mb-4" style="width: 18rem;">
+        <div class="card mb-5 my_card" style="width: 18rem;">
             <img src="${member.img}" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">
