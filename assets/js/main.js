@@ -75,7 +75,7 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe */
 BONUS 1:
 Trasformare la stringa foto in una immagine effettiva */
 
-const imgPath = "../assets/img/"; // percorso relativo della cartella contenente le immagini
+const imgPath = "./assets/img/"; // percorso relativo della cartella contenente le immagini
 
 teamElements[0].img = `${imgPath}angela-caroll-chief-editor.jpg`;
 teamElements[1].img = `${imgPath}angela-lopez-social-media-manager.jpg`;
